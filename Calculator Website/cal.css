@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    /* border:solid 1px black; */
+    height:400px;
+    width:100%;
+    font-size:0px;
+    margin-top: 150px;
+}
+.main1{
+    height:400px;
+    width:100%;
+    font-size:0px;
+    margin-top: 20px;
+    text-align:center;
+
+}
+.col1{
+    height:100%;
+    width:50%;
+    display:inline-block;
+
+}
+.col{
+    /* border:solid 1px red; */
+    height:100%;
+    width:50%;
+    display:inline-block;
+}
+
+div > h2 {
+    margin-top: 50px;
+    text-align:center;
+}
+
+div >h2:hover{
+    background-color:greenyellow ;
+}
+
+.content{
+    /* margin-top: 80px; */
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.navbar bg-body-tertiary{
+
+    margin-top: 30px;
+}
+
+.fo{
+    margin-top:80px;
+}
+
+/* #calculator{
+    width:500px;
+    height:300px;
+    text-align: center;
+    margin-top:50px;
+} */
+
+.table{
+    /* margin-top: 50px; */
+
+    height:500px;
+    width:500px;
+}
+#carouselExample{
+    margin-top: 20px;
+}

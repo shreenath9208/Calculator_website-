@@ -1,0 +1,113 @@
+<body  >
+    <div id="calculator">
+        <form  name="calculator">
+            <center>
+                <table style="margin-top:50px"class="table" border="1" cellspacing="3" cellpadding="7">
+                    <tr>
+                        <th colspan="3"> <input type="text" name="input" value="" id="out" /> </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" name="1" value="1" onclick="updatestring(1)" />
+                        </td>
+                        <td>
+                            <input type="button" name="2" value="2" onclick="updatestring(2)" />
+                        </td>
+                        <td>
+                            <input type="button" name="3" value="3" onclick="updatestring(3)" />
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="button" name="4" value="4" onclick="updatestring(4)" />
+                        </td>
+                        <td>
+                            <input type="button" name="5" value="5" onclick="updatestring(5)" />
+                        </td>
+                        <td>
+                            <input type="button" name="6" value="6" onclick="updatestring(6)" />
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="button" name="7" value="7" onclick="updatestring(7)" />
+                        </td>
+                        <td>
+                            <input type="button" name="8" value="8" onclick="updatestring(8)" />
+                        </td>
+                        <td>
+                            <input type="button" name="9" value="9" onclick="updatestring(9)" />
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="button" name="+" value="+" onclick="updatestring('+')" />
+                        </td>
+                        <td>
+                            <input type="button" name="0" value="0" onclick="updatestring(0)" />
+                        </td>
+                        <td>
+                            <input type="button" name="-" value="-" onclick="updatestring('-')" />
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="button" name="*" value="*" onclick="updatestring('*')" />
+                        </td>
+                        <td>
+                            <input type="button" name="/" value="/" onclick="updatestring('/')" />
+                        </td>
+                        <td>
+                            <input type="button" name="=" value="=" onclick="input.value=eval(inputstring)" />
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align:center">
+                            <input type="button" value="clear" name="clear" onclick="input.value=0"; inputstring=""/>
+                        </td>
+                    </tr>
+
+                </table>
+            </center>
+        </form>
+
+    </div>
+
+
+
+
+    
+<div class="fo">
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Home</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Internship</a></li> -->
+            <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Contact</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Help Center</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Ask Question </a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Send feedback</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li> -->
+        </ul>
+        <!-- <div class="share">
+            <a href="https://t.me/Ic100_InternCrowd" class="fab fa-telegram" target="_blank"></a>
+            <a href="https://www.instagram.com/interncrowd/" class="fab fa-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/intern-crowd-564b16253/" class="fab fa-linkedin"
+                target="_blank"></a>
+        </div> -->
+
+        <p class="text-center text-muted">© 2023 Calculator, Inc</p>
+
+
+    </footer>
+</body>
+
+</html>
